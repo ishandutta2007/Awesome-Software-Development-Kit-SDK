@@ -1,279 +1,161 @@
-# Awesome-Software-Development-Kit-SDK
-
-## Top Software Development Kit (SDK) Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Platform SDKs, Language Toolchains & Cloud Service Libraries*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial SDKs** and **open-source projects** that provide developers with the tools, libraries, and documentation needed to build applications for specific platforms, languages, and cloud services.
-
-
-
-**Examples** include Windows SDK, Android SDK, iOS SDK, macOS SDK, Java Development Kit (JDK), .NET SDK, Flutter SDK, AWS SDK, Google Cloud SDK, and Azure SDK (the category leaders).
-
-
-
-**Open-source emphasis**: SDK development is one of the strongest open-source domains. **OpenJDK**, **.NET SDK**, **Flutter**, **Rust SDK**, **Go SDK**, and **Python SDK** are all open source, while cloud SDKs from AWS, Google, and Azure provide open-source client libraries. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/)**  
-
-  Microsoft's SDK for building Windows applications with Win32, WinRT, and .NET APIs. **Required for native Windows development** — includes headers, libraries, and tools.
-
-
-
-- **[Android SDK](https://developer.android.com/studio)**  
-
-  Google's SDK for Android app development with Kotlin/Java, Jetpack Compose, and Play Store deployment. **The dominant mobile platform SDK** — bundled with Android Studio.
-
-
-
-- **[iOS SDK](https://developer.apple.com/ios/)**  
-
-  Apple's SDK for iPhone/iPad development with Swift, SwiftUI, and UIKit. **Required for App Store distribution** — macOS-only toolchain.
-
-
-
-- **[macOS SDK](https://developer.apple.com/macos/)**  
-
-  Apple's SDK for Mac application development with AppKit, SwiftUI, and Catalyst. **Required for Mac App Store distribution** .
-
-
-
-- **[AWS SDK](https://aws.amazon.com/developer/tools/)**  
-
-  Amazon's SDKs for interacting with AWS services across multiple languages including Java, Python, JavaScript, Go, .NET, Ruby, PHP, and Rust. **The most widely used cloud SDK** — covers every AWS service.
-
-
-
-- **[Google Cloud SDK](https://cloud.google.com/sdk)**  
-
-  Google's SDK including `gcloud` CLI, client libraries, and language-specific SDKs for GCP services.
-
-
-
-- **[Azure SDK](https://azure.microsoft.com/en-us/downloads/)**  
-
-  Microsoft's SDKs for Azure services across .NET, Java, Python, JavaScript, Go, and C++.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[OpenJDK](https://github.com/openjdk/jdk)**  
-
-  **The open-source implementation of the Java Platform, Standard Edition**, GPL-2.0 licensed with 20,000+ GitHub stars . **The reference implementation for Java** — powers virtually all Java applications including Android, enterprise systems, and big data tools . Backed by Oracle, IBM, Red Hat, and the broader Java community. **Multiple distributions**: Adoptium Temurin, Amazon Corretto, Azul Zulu, and more.
-
-
-
-- **[.NET SDK](https://github.com/dotnet/sdk)**  
-
-  **Microsoft's open-source SDK for building .NET applications**, MIT licensed with 3,000+ GitHub stars . **Cross-platform** — runs on Windows, Linux, and macOS . Includes **dotnet CLI**, runtime, libraries, and templates for C#, F#, and Visual Basic . **The foundation for modern .NET development** — ASP.NET Core, Blazor, MAUI, and more.
-
-
-
-- **[Flutter SDK](https://github.com/flutter/flutter)**  
-
-  **Google's open-source UI toolkit for building natively compiled applications**, BSD-3-Clause licensed with 165,000+ GitHub stars . **Single codebase for mobile (iOS/Android), web, desktop (Windows/macOS/Linux), and embedded** . **The most popular cross-platform mobile framework** — used by Google Pay, Alibaba, and BMW .
-
-
-
-- **[Dart SDK](https://github.com/dart-lang/sdk)**  
-
-  **The Dart programming language and SDK**, BSD-3-Clause licensed with 3,500+ GitHub stars . **The language powering Flutter** — optimized for UI development with sound null safety, async/await, and JIT/AOT compilation .
-
-
-
-- **[Rust SDK (rustup)](https://github.com/rust-lang/rustup)**  
-
-  **The Rust toolchain installer and version manager**, MIT/Apache-2.0 licensed with 7,000+ GitHub stars . **Manages Rust compiler, Cargo, and standard library versions** . **The foundation for Rust development** — memory-safe systems programming .
-
-
-
-- **[Go SDK](https://github.com/golang/go)**  
-
-  **The Go programming language and SDK**, BSD-3-Clause licensed with 125,000+ GitHub stars . **Simple, fast, and built for concurrency** . Includes `go` CLI, standard library, and tooling for building, testing, and profiling . **The standard for cloud-native development** — Docker, Kubernetes, and Terraform are written in Go .
-
-
-
-- **[Python SDK (CPython)](https://github.com/python/cpython)**  
-
-  **The reference implementation of Python**, PSF licensed with 65,000+ GitHub stars . **The most widely used programming language SDK** — powers data science, AI/ML, web development, and automation . Includes `pip`, `venv`, and the standard library.
-
-
-
-- **[Node.js SDK](https://github.com/nodejs/node)**  
-
-  **JavaScript runtime built on Chrome's V8 engine**, MIT licensed with 110,000+ GitHub stars . **The standard for server-side JavaScript** — npm ecosystem with 2M+ packages .
-
-
-
-- **[Kotlin SDK](https://github.com/JetBrains/kotlin)**  
-
-  **JetBrains' modern programming language for JVM, Android, and multiplatform development**, Apache-2.0 licensed with 50,000+ GitHub stars . **The preferred language for Android development** — officially supported by Google . Compiles to JVM bytecode, JavaScript, and native binaries.
-
-
-
-- **[Swift SDK](https://github.com/apple/swift)**  
-
-  **Apple's programming language for iOS, macOS, watchOS, and tvOS**, Apache-2.0 licensed with 68,000+ GitHub stars . **The modern replacement for Objective-C** — safe, fast, and expressive . Open-sourced in 2015 with Linux support.
-
-
-
-- **[TypeScript SDK](https://github.com/microsoft/TypeScript)**  
-
-  **Microsoft's typed superset of JavaScript**, Apache-2.0 licensed with 100,000+ GitHub stars . **Adds static types to JavaScript** — catches errors at compile time . **The standard for large-scale JavaScript applications** — used by Angular, VS Code, and countless frameworks.
-
-
-
-- **[TensorFlow](https://github.com/tensorflow/tensorflow)**  
-
-  **Google's end-to-end open-source machine learning platform**, Apache-2.0 licensed with 190,000+ GitHub stars . **The most widely used ML SDK** — training and deployment across servers, mobile, and edge devices .
-
-
-
-- **[PyTorch](https://github.com/pytorch/pytorch)**  
-
-  **Meta's open-source machine learning framework**, BSD-3-Clause licensed with 85,000+ GitHub stars . **The preferred framework for research** — dynamic computation graphs and Pythonic API . Used by OpenAI, Tesla, and Microsoft .
-
-
-
-### Cloud SDKs (Open-Source Client Libraries)
-
-
-
-- **[AWS SDK for Go v2](https://github.com/aws/aws-sdk-go-v2)** — AWS's official Go SDK with modular design, Apache-2.0 licensed .
-
-- **[AWS SDK for Python (Boto3)](https://github.com/boto/boto3)** — Python SDK for AWS with 8,000+ GitHub stars, Apache-2.0 licensed .
-
-- **[AWS SDK for JavaScript v3](https://github.com/aws/aws-sdk-js-v3)** — Modular JavaScript SDK for AWS, Apache-2.0 licensed .
-
-- **[Google Cloud Client Libraries](https://github.com/googleapis)** — Google's open-source client libraries for GCP services, Apache-2.0 licensed .
-
-- **[Azure SDK for .NET](https://github.com/Azure/azure-sdk-for-net)** — Microsoft's .NET SDK for Azure, MIT licensed .
-
-- **[Azure SDK for Python](https://github.com/Azure/azure-sdk-for-python)** — Microsoft's Python SDK for Azure, MIT licensed .
-
-
-
-### Platform SDKs (Open-Source)
-
-
-
-- **[Android Open Source Project (AOSP)](https://source.android.com/)** — The open-source foundation of Android, Apache-2.0 licensed . **The base for all Android distributions** .
-
-- **[WebKit SDK](https://github.com/WebKit/WebKit)** — Apple's open-source web engine SDK, BSD/LGPL licensed . **Powers Safari and all iOS browsers** .
-
-- **[Chromium SDK](https://chromium.googlesource.com/chromium/src.git)** — The open-source foundation of Chrome, Edge, and Brave, BSD-style licensed .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **OpenSSL** — Cryptography and SSL/TLS toolkit, Apache-2.0 licensed .
-
-- **libcurl** — Client-side URL transfer library, MIT licensed .
-
-- **SQLite** — Embedded SQL database engine, public domain .
-
-- **Zlib** — Compression library, zlib licensed .
-
-- **libpng** — PNG reference library, libpng licensed .
-
-- **FFmpeg** — Multimedia framework for audio/video processing, LGPL/GPL licensed .
-
-- **OpenCV** — Computer vision library, Apache-2.0 licensed .
-
-- **Eigen** — C++ template library for linear algebra, MPL-2.0 licensed .
-
-- **Boost** — Peer-reviewed C++ libraries, Boost licensed .
-
-- **Qt** — Cross-platform application framework, LGPL/GPL/commercial licensed .
-
-- **GTK** — Cross-platform widget toolkit, LGPL licensed .
-
-- **SDL** — Simple DirectMedia Layer for games, zlib licensed .
-
-- **Vulkan SDK** — Graphics and compute API, Apache-2.0 licensed .
-
-
-
-**Frameworks for building custom SDKs**: Choose based on platform and language. **OpenJDK** for Java development with the broadest enterprise adoption . **.NET SDK** for cross-platform C#/F# development . **Flutter** for cross-platform mobile and desktop from a single codebase . **Rust** for memory-safe systems programming . **Go** for cloud-native and concurrent applications . **Python** for AI/ML, data science, and automation . **TypeScript** for type-safe JavaScript at scale . For cloud integration, use **AWS SDK**, **Google Cloud Client Libraries**, or **Azure SDK** depending on your cloud provider . Note that true enterprise SDKs with long-term support, certified builds, and vendor-backed SLAs remain primarily commercial territory; open-source stacks provide strong compiler, runtime, and library foundations that require integration for complete development workflows.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- SDKs provide APIs and tools that modify system behavior. **Review documentation and security advisories** before adopting any SDK in production.
-
-- **Platform SDKs (Windows, Android, iOS, macOS) have vendor-specific licensing** — some restrict distribution or require developer accounts. Open-source alternatives exist for cross-platform development (Flutter, .NET MAUI, Qt) .
-
-- **Cloud SDKs introduce vendor dependencies** — while client libraries are open source, using them ties your application to specific cloud services. Consider abstraction layers for multi-cloud portability.
-
-- **Language SDKs require ongoing maintenance** — security patches, version updates, and ecosystem compatibility. OpenJDK, .NET, Go, Rust, and Python have regular release cycles .
-
-- The open-source ecosystem provides strong compiler, runtime, and library foundations, but **long-term support guarantees, certified builds, and vendor-backed SLAs** remain primarily commercial offerings.
-
-
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Software-Development-Kit-SDK">
+    <img src="assets/banner.svg" alt="Awesome Software Development Kit (SDK) Banner" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Software-Development-Kit-SDK/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Software-Development-Kit-SDK?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Software-Development-Kit-SDK/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Software-Development-Kit-SDK?style=flat-square&color=blue" alt="GitHub Forks"/></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Software-Development-Kit-SDK?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+# 🚀 Awesome Software Development Kit (SDK) Ecosystem
 
+> **A definitive, SEO-optimized curated directory of commercial SaaS SDKs, platform development toolchains, cloud service client libraries, and high-performance open-source SDK frameworks.**
 
-**Made for software developers, platform engineers, and technology architects.**  
+Welcome to the ultimate resource for **Software Development Kits (SDKs)**, API toolchains, and developer platform runtimes. Whether you are building mobile apps (iOS/Android), enterprise cloud infrastructure (AWS/GCP/Azure), cross-platform applications, or AI/ML pipelines, this list provides accurate, up-to-date details on starting tier pricing, free trial limits, enterprise valuations, and GitHub community popularity.
 
-Let's make software development kits more open, transparent, and accessible.
+---
+
+## 📋 Table of Contents
+
+- [📊 Sector Overview & Market Analysis](#-sector-overview--market-analysis)
+- [💼 Commercial & SaaS Platform SDKs](#-commercial--saas-platform-sdks)
+- [⚡ Open-Source GitHub SDKs & Toolchains](#-open-source-github-sdks--toolchains)
+  - [🌐 Language & Runtime SDKs](#-language--runtime-sdks)
+  - [🤖 AI & Machine Learning SDKs](#-ai--machine-learning-sdks)
+  - [☁️ Cloud & Infrastructure Client SDKs](#-cloud--infrastructure-client-sdks)
+  - [🛠️ Native Platform & Utility Libraries](#-native-platform--utility-libraries)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer](#-disclaimer)
+- [📈 Star History](#-star-history)
+- [💖 Support & Community](#-support--community)
+
+---
+
+## 📊 Sector Overview & Market Analysis
+
+The global **Software Development Kit (SDK) and Developer Tools** market is estimated at **~$32.5 Billion** in 2026, exhibiting a compound annual growth rate (CAGR) of **~14.8%**. 
+
+**Market Structure**: The sector is **highly concentrated (winner-take-all dynamics)** among major tech conglomerates (Apple, Microsoft, Alphabet/Google, Amazon) for platform runtimes and cloud infrastructure SDKs. However, specialized sub-domains—such as fintech payments (Stripe) and communications APIs (Twilio)—demonstrate **moderate fragmentation** where agile SaaS providers establish dominant API ecosystems.
+
+---
+
+## 💼 Commercial & SaaS Platform SDKs
+
+> *Ranked by Provider Enterprise Valuation / Market Capitalization (Descending)*
+
+| SaaS Product / SDK | Provider / Owner | Market Cap / Valuation | Starting Tier Pricing | Free Tier Limit / Trial Duration | Primary Focus & Target Use Case |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[iOS SDK & macOS SDK](https://developer.apple.com/)** | Apple Inc. | **~$3.4 Trillion** | **$99/year** (Apple Developer Program membership required for device signing & App Store distribution) | **Free local dev** in Xcode Simulator; 0 free App Store distribution slots without paid membership | Native iOS, iPadOS, macOS, and watchOS app development using Swift, SwiftUI, and UIKit. |
+| **[Windows SDK & Azure SDK](https://developer.microsoft.com/)** | Microsoft Corp. | **~$3.1 Trillion** | **$45/user/month** (VS Pro) / Azure pay-as-you-go starting at **$0.0001** per API call | **Visual Studio Community** is 100% free; Azure includes **$200 free credit** (30 days) + **12 months free** core services (750 B1s VM hrs/mo) | Native Win32/WinRT application SDKs, .NET toolchains, and multi-language Azure cloud client libraries. |
+| **[Android SDK & Google Cloud SDK](https://developer.android.com/)** | Alphabet Inc. (Google) | **~$2.1 Trillion** | **$25 one-time fee** (Google Play Console) / GCP pay-as-you-go starting at **$0.0000025** per API request | **Android Studio & SDK** are 100% free for local dev; GCP provides **$300 free credit** (90 days) + **20+ Always Free** services (28 App Engine hrs/day, 2M Cloud Functions calls/mo) | Official Android mobile toolchain (Kotlin/Java) alongside `gcloud` CLI and Google Cloud client libraries. |
+| **[AWS SDK](https://aws.amazon.com/developer/tools/)** | Amazon.com Inc. | **~$2.0 Trillion** | Pay-as-you-go starting at **$0.0000002** per AWS Lambda invocation & **$0.023/GB-month** S3 storage | **12 Months Free Tier** (750 EC2 micro hrs/mo, 5GB S3) + **Always Free Tier** (1 Million AWS Lambda invocations/mo) | Multi-language enterprise cloud SDKs covering Amazon Web Services (S3, EC2, DynamoDB, Lambda, Bedrock). |
+| **[Stripe SDK](https://stripe.com/docs/sdk)** | Stripe Inc. | **~$70 Billion** | **2.9% + $0.30** per successful transaction (Pay-as-you-go, $0 monthly base subscription) | **Unlimited free sandbox** and test mode API calls with 0 monthly subscription fees | Payment processing, billing subscriptions, and financial infrastructure SDKs across web and mobile. |
+| **[Twilio SDK](https://www.twilio.com/docs/libraries)** | Twilio Inc. | **~$11 Billion** | **$0.0079** per SMS sent / **$0.014** per minute for outbound voice calls | **$15.00 free trial credit** provided upon account sign-up (valid for up to 45 days of test calls & SMS) | Programmable voice, SMS, WhatsApp, and omnichannel communications SDKs for web and mobile apps. |
+
+---
+
+## ⚡ Open-Source GitHub SDKs & Toolchains
+
+> *Ranked by GitHub Community Star Counts (Descending)*
+
+### 🤖 AI & Machine Learning SDKs
+
+| Open-Source SDK / Repository | GitHub Stars Badge | License | Primary Description & Ecosystem Impact |
+| :--- | :--- | :--- | :--- |
+| **[TensorFlow](https://github.com/tensorflow/tensorflow)** | <a href="https://github.com/tensorflow/tensorflow/stargazers"><img src="https://img.shields.io/github/stars/tensorflow/tensorflow?style=social" alt="TensorFlow Stars"/></a> | Apache-2.0 | **Google's end-to-end open-source machine learning platform.** Powers ML model training, edge deployment (TensorFlow Lite), and production pipelines across mobile, web, and cloud. |
+| **[PyTorch](https://github.com/pytorch/pytorch)** | <a href="https://github.com/pytorch/pytorch/stargazers"><img src="https://img.shields.io/github/stars/pytorch/pytorch?style=social" alt="PyTorch Stars"/></a> | BSD-3-Clause | **Meta's premier open-source deep learning framework.** The industry standard for AI research, dynamic neural networks, LLM training (LLaMA), and computer vision. |
+| **[OpenCV](https://github.com/opencv/opencv)** | <a href="https://github.com/opencv/opencv/stargazers"><img src="https://img.shields.io/github/stars/opencv/opencv?style=social" alt="OpenCV Stars"/></a> | Apache-2.0 | **Open-source real-time computer vision and image processing SDK.** Contains 2500+ optimized algorithms for object detection, facial recognition, and robotics. |
+
+### 🌐 Language & Runtime SDKs
+
+| Open-Source SDK / Repository | GitHub Stars Badge | License | Primary Description & Ecosystem Impact |
+| :--- | :--- | :--- | :--- |
+| **[Flutter SDK](https://github.com/flutter/flutter)** | <a href="https://github.com/flutter/flutter/stargazers"><img src="https://img.shields.io/github/stars/flutter/flutter?style=social" alt="Flutter Stars"/></a> | BSD-3-Clause | **Google's UI toolkit for multi-platform compilation.** Build high-performance, natively compiled mobile (iOS/Android), web, and desktop apps from a single Dart codebase. |
+| **[Go SDK](https://github.com/golang/go)** | <a href="https://github.com/golang/go/stargazers"><img src="https://img.shields.io/github/stars/golang/go?style=social" alt="Go Stars"/></a> | BSD-3-Clause | **The Go programming language toolchain and standard library.** Built for extreme concurrency and microservice speed. Powers cloud-native foundations like Docker and Kubernetes. |
+| **[React Native SDK](https://github.com/facebook/react-native)** | <a href="https://github.com/facebook/react-native/stargazers"><img src="https://img.shields.io/github/stars/facebook/react-native?style=social" alt="React Native Stars"/></a> | MIT | **Meta's cross-platform native app framework.** Build native Android and iOS applications using React and JavaScript/TypeScript. |
+| **[Node.js SDK](https://github.com/nodejs/node)** | <a href="https://github.com/nodejs/node/stargazers"><img src="https://img.shields.io/github/stars/nodejs/node?style=social" alt="Node.js Stars"/></a> | MIT | **Server-side JavaScript runtime built on Chrome's V8 engine.** The foundation for modern backend web SDKs and the 2M+ package npm ecosystem. |
+| **[TypeScript SDK](https://github.com/microsoft/TypeScript)** | <a href="https://github.com/microsoft/TypeScript/stargazers"><img src="https://img.shields.io/github/stars/microsoft/TypeScript?style=social" alt="TypeScript Stars"/></a> | Apache-2.0 | **Microsoft's typed superset of JavaScript.** Provides static typing, compile-time verification, and modern tooling for large-scale enterprise web applications. |
+| **[Rust Language SDK](https://github.com/rust-lang/rust)** | <a href="https://github.com/rust-lang/rust/stargazers"><img src="https://img.shields.io/github/stars/rust-lang/rust?style=social" alt="Rust Stars"/></a> | MIT / Apache-2.0 | **Empowering everyone to build reliable and efficient software.** Memory-safe systems programming language compiler, standard library, and core toolchain. |
+| **[Godot Engine SDK](https://github.com/godotengine/godot)** | <a href="https://github.com/godotengine/godot/stargazers"><img src="https://img.shields.io/github/stars/godotengine/godot?style=social" alt="Godot Stars"/></a> | MIT | **Free, open-source 2D and 3D game engine SDK.** Fully featured cross-platform editor with C#, GDScript, and C++ bindings. |
+| **[Swift SDK](https://github.com/apple/swift)** | <a href="https://github.com/apple/swift/stargazers"><img src="https://img.shields.io/github/stars/apple/swift?style=social" alt="Swift Stars"/></a> | Apache-2.0 | **Apple's fast, modern, and safe programming language.** Open-source toolchain for iOS, macOS, Linux, and Windows development. |
+| **[Python SDK (CPython)](https://github.com/python/cpython)** | <a href="https://github.com/python/cpython/stargazers"><img src="https://img.shields.io/github/stars/python/cpython?style=social" alt="Python Stars"/></a> | PSF | **The reference C implementation of Python.** Powers data science, artificial intelligence, scripting, web services, and automation worldwide. |
+| **[Kotlin SDK](https://github.com/JetBrains/kotlin)** | <a href="https://github.com/JetBrains/kotlin/stargazers"><img src="https://img.shields.io/github/stars/JetBrains/kotlin?style=social" alt="Kotlin Stars"/></a> | Apache-2.0 | **JetBrains' modern multiplatform language.** Google's preferred programming language for Android app development, JVM backends, and Kotlin Multiplatform (KMP). |
+| **[OpenJDK](https://github.com/openjdk/jdk)** | <a href="https://github.com/openjdk/jdk/stargazers"><img src="https://img.shields.io/github/stars/openjdk/jdk?style=social" alt="OpenJDK Stars"/></a> | GPL-2.0 w/ Classpath | **The open-source reference implementation of the Java Platform, SE.** Foundation for enterprise microservices, Android runtimes, and big data systems. |
+| **[.NET Runtime & SDK](https://github.com/dotnet/runtime)** | <a href="https://github.com/dotnet/runtime/stargazers"><img src="https://img.shields.io/github/stars/dotnet/runtime?style=social" alt=".NET Runtime Stars"/></a> | MIT | **Microsoft's cross-platform .NET runtime, garbage collector, and core libraries.** Powers ASP.NET Core, Blazor, and .NET MAUI. |
+| **[Rustup Toolchain](https://github.com/rust-lang/rustup)** | <a href="https://github.com/rust-lang/rustup/stargazers"><img src="https://img.shields.io/github/stars/rust-lang/rustup?style=social" alt="Rustup Stars"/></a> | MIT / Apache-2.0 | **The official Rust toolchain installer and version manager.** Seamlessly manages `rustc`, `cargo`, `clippy`, and cross-compilation targets. |
+| **[Dart SDK](https://github.com/dart-lang/sdk)** | <a href="https://github.com/dart-lang/sdk/stargazers"><img src="https://img.shields.io/github/stars/dart-lang/sdk?style=social" alt="Dart Stars"/></a> | BSD-3-Clause | **Client-optimized language SDK powering Flutter.** Features sound null safety, AOT/JIT compilation, and asynchronous streams. |
+| **[.NET SDK CLI](https://github.com/dotnet/sdk)** | <a href="https://github.com/dotnet/sdk/stargazers"><img src="https://img.shields.io/github/stars/dotnet/sdk?style=social" alt=".NET SDK Stars"/></a> | MIT | **The command-line tools for building .NET applications.** Includes `dotnet` CLI compiler orchestration, project templates, and NuGet integration. |
+
+### ☁️ Cloud & Infrastructure Client SDKs
+
+| Open-Source SDK / Repository | GitHub Stars Badge | License | Primary Description & Ecosystem Impact |
+| :--- | :--- | :--- | :--- |
+| **[Supabase SDK](https://github.com/supabase/supabase)** | <a href="https://github.com/supabase/supabase/stargazers"><img src="https://img.shields.io/github/stars/supabase/supabase?style=social" alt="Supabase Stars"/></a> | Apache-2.0 | **The open-source Firebase alternative.** Complete client SDK suite for PostgreSQL database subscription, authentication, storage, and edge functions. |
+| **[AWS SDK for Python (Boto3)](https://github.com/boto/boto3)** | <a href="https://github.com/boto/boto3/stargazers"><img src="https://img.shields.io/github/stars/boto/boto3?style=social" alt="Boto3 Stars"/></a> | Apache-2.0 | **Official Python SDK for AWS services.** Enables seamless integration with Amazon S3, EC2, DynamoDB, Bedrock, and IAM in Python scripts. |
+| **[AWS SDK for JS v3](https://github.com/aws/aws-sdk-js-v3)** | <a href="https://github.com/aws/aws-sdk-js-v3/stargazers"><img src="https://img.shields.io/github/stars/aws/aws-sdk-js-v3?style=social" alt="AWS JS SDK Stars"/></a> | Apache-2.0 | **Modular AWS SDK for JavaScript and TypeScript.** Zero-dependency modular architecture designed for minimal bundle sizes in Node.js and browser apps. |
+
+### 🛠️ Native Platform & Utility Libraries
+
+| Open-Source SDK / Repository | GitHub Stars Badge | License | Primary Description & Ecosystem Impact |
+| :--- | :--- | :--- | :--- |
+| **[FFmpeg SDK](https://github.com/ffmpeg/ffmpeg)** | <a href="https://github.com/ffmpeg/ffmpeg/stargazers"><img src="https://img.shields.io/github/stars/ffmpeg/ffmpeg?style=social" alt="FFmpeg Stars"/></a> | LGPL / GPL | **Universal multimedia framework SDK.** Complete C libraries (`libavcodec`, `libavformat`) for video/audio encoding, decoding, transcoding, and streaming. |
+
+---
+
+## 🤝 How to Contribute
+
+We welcome contributions from software engineers, platform architects, and open-source maintainers!
+
+1. **Fork** this repository.
+2. Create a feature branch (`git checkout -b add-awesome-sdk`).
+3. Add or update entries in `README.md` keeping formatting consistent:
+   - Provide exact starting tier pricing (no generic terms like 'Usage-based').
+   - Provide exact free tier limits or free trial durations.
+   - Attach a social-style star badge linking to the repo's `/stargazers` page.
+4. Submit a **Pull Request** with a concise description of your changes.
+
+Check out [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated developer lists.
+
+---
+
+## ⚖️ Disclaimer
+
+- This list is **community-curated** for informational purposes and does not constitute commercial endorsement.
+- SDKs interact deeply with operating systems and cloud APIs. Always inspect official security advisories and licensing agreements before deploying third-party SDKs to production environments.
+- Enterprise SLAs, security compliance (SOC2/ISO), and dedicated technical support remain primarily under paid commercial vendor agreements.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Software-Development-Kit-SDK&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Software-Development-Kit-SDK&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Community
+
+Thank you for exploring the **Awesome Software Development Kit (SDK)** repository! If you find this curated collection helpful for your software projects or platform architecture:
+
+- ⭐ **Star** this repository to stay updated with new SDK releases.
+- 🔀 **Fork** it to keep a copy and contribute your own discoveries.
+- 📢 **Share** it with fellow software engineers, platform architects, and developers.
+
+If you'd like to support the ongoing maintenance and curation of open-source developer resources:
+
+<a href="https://github.com/sponsors/ishandutta2007">
+  <img src="https://img.shields.io/badge/Sponsor-Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Sponsor on GitHub"/>
+</a>
+
+---
+
+<p align="center">
+  <i>Built with ❤️ for developers, platform engineers, and software architects worldwide.</i>
+</p>
