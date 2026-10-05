@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Software-Development-Kit-SDK/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Software-Development-Kit-SDK?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Software-Development-Kit-SDK/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Software-Development-Kit-SDK?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Software-Development-Kit-SDK/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Software-Development-Kit-SDK?style=flat-square&color=blue" alt="GitHub Forks"/></a>
   <a href="LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Software-Development-Kit-SDK?style=flat-square" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -64,11 +64,11 @@ The global **Software Development Kit (SDK) and Developer Tools** market is esti
 
 ## ⚡ Open-Source GitHub SDKs & Toolchains
 
-> *Ranked by GitHub Community Star Counts (Descending)*
+> *Ranked by GitHub Community Stars_Counts (Descending)*
 
 ### 🤖 AI & Machine Learning SDKs
 
-| Open-Source SDK / Repository | GitHub Stars Badge | License | Primary Description & Ecosystem Impact |
+| Open-Source SDK / Repository | GitHub_Stars_Badge | License | Primary Description & Ecosystem Impact |
 | :--- | :--- | :--- | :--- |
 | **[TensorFlow](https://github.com/tensorflow/tensorflow)** | <a href="https://github.com/tensorflow/tensorflow/stargazers"><img src="https://img.shields.io/github/stars/tensorflow/tensorflow?style=social" alt="TensorFlow Stars"/></a> | Apache-2.0 | **Google's end-to-end open-source machine learning platform.** Powers ML model training, edge deployment (TensorFlow Lite), and production pipelines across mobile, web, and cloud. |
 | **[PyTorch](https://github.com/pytorch/pytorch)** | <a href="https://github.com/pytorch/pytorch/stargazers"><img src="https://img.shields.io/github/stars/pytorch/pytorch?style=social" alt="PyTorch Stars"/></a> | BSD-3-Clause | **Meta's premier open-source deep learning framework.** The industry standard for AI research, dynamic neural networks, LLM training (LLaMA), and computer vision. |
@@ -76,7 +76,7 @@ The global **Software Development Kit (SDK) and Developer Tools** market is esti
 
 ### 🌐 Language & Runtime SDKs
 
-| Open-Source SDK / Repository | GitHub Stars Badge | License | Primary Description & Ecosystem Impact |
+| Open-Source SDK / Repository | GitHub_Stars_Badge | License | Primary Description & Ecosystem Impact |
 | :--- | :--- | :--- | :--- |
 | **[Flutter SDK](https://github.com/flutter/flutter)** | <a href="https://github.com/flutter/flutter/stargazers"><img src="https://img.shields.io/github/stars/flutter/flutter?style=social" alt="Flutter Stars"/></a> | BSD-3-Clause | **Google's UI toolkit for multi-platform compilation.** Build high-performance, natively compiled mobile (iOS/Android), web, and desktop apps from a single Dart codebase. |
 | **[Go SDK](https://github.com/golang/go)** | <a href="https://github.com/golang/go/stargazers"><img src="https://img.shields.io/github/stars/golang/go?style=social" alt="Go Stars"/></a> | BSD-3-Clause | **The Go programming language toolchain and standard library.** Built for extreme concurrency and microservice speed. Powers cloud-native foundations like Docker and Kubernetes. |
@@ -96,7 +96,7 @@ The global **Software Development Kit (SDK) and Developer Tools** market is esti
 
 ### ☁️ Cloud & Infrastructure Client SDKs
 
-| Open-Source SDK / Repository | GitHub Stars Badge | License | Primary Description & Ecosystem Impact |
+| Open-Source SDK / Repository | GitHub_Stars_Badge | License | Primary Description & Ecosystem Impact |
 | :--- | :--- | :--- | :--- |
 | **[Supabase SDK](https://github.com/supabase/supabase)** | <a href="https://github.com/supabase/supabase/stargazers"><img src="https://img.shields.io/github/stars/supabase/supabase?style=social" alt="Supabase Stars"/></a> | Apache-2.0 | **The open-source Firebase alternative.** Complete client SDK suite for PostgreSQL database subscription, authentication, storage, and edge functions. |
 | **[AWS SDK for Python (Boto3)](https://github.com/boto/boto3)** | <a href="https://github.com/boto/boto3/stargazers"><img src="https://img.shields.io/github/stars/boto/boto3?style=social" alt="Boto3 Stars"/></a> | Apache-2.0 | **Official Python SDK for AWS services.** Enables seamless integration with Amazon S3, EC2, DynamoDB, Bedrock, and IAM in Python scripts. |
@@ -104,7 +104,7 @@ The global **Software Development Kit (SDK) and Developer Tools** market is esti
 
 ### 🛠️ Native Platform & Utility Libraries
 
-| Open-Source SDK / Repository | GitHub Stars Badge | License | Primary Description & Ecosystem Impact |
+| Open-Source SDK / Repository | GitHub_Stars_Badge | License | Primary Description & Ecosystem Impact |
 | :--- | :--- | :--- | :--- |
 | **[FFmpeg SDK](https://github.com/ffmpeg/ffmpeg)** | <a href="https://github.com/ffmpeg/ffmpeg/stargazers"><img src="https://img.shields.io/github/stars/ffmpeg/ffmpeg?style=social" alt="FFmpeg Stars"/></a> | LGPL / GPL | **Universal multimedia framework SDK.** Complete C libraries (`libavcodec`, `libavformat`) for video/audio encoding, decoding, transcoding, and streaming. |
 
@@ -119,7 +119,7 @@ We welcome contributions from software engineers, platform architects, and open-
 3. Add or update entries in `README.md` keeping formatting consistent:
    - Provide exact starting tier pricing (no generic terms like 'Usage-based').
    - Provide exact free tier limits or free trial durations.
-   - Attach a social-style star badge linking to the repo's `/stargazers` page.
+   - Attach a social-style Stars_Badge linking to the repo's `/stargazers` page.
 4. Submit a **Pull Request** with a concise description of your changes.
 
 Check out [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated developer lists.
